@@ -4,3 +4,12 @@ from principal.models import (
 )
 
 # Register your models here.
+admin.site.register(Cliente)
+admin.site.register(Lanche)
+admin.site.register(Almoço)
+admin.site.register(Janta)
+admin.site.register(Vinho)
+admin.site.register(Sobremesa)
+admin.site.register(ItemDoEstoque)
+admin.site.register(Bebida)
+admin.site.register(Reserva)
